@@ -1,0 +1,50 @@
+{
+  "name": "xz-oidc",
+  "version": "1.0.0",
+  "description": "Demo of how to build an app using marko-starter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marko-js-samples/marko-starter-demo"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "lodash": "^4.17.4",
+    "mockjs": "^1.0.1-beta3",
+    "prettier": "^1.5.2",
+    "rimraf": "^2.6.2",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "dependencies": {
+    "marko": "^4.2.4",
+    "marko-starter": "^1.0.0"
+  },
+  "scripts": {
+    "start": "marko-starter server",
+    "build": "rimraf ./dist ./.cache && cross-env NODE_ENV=production marko-starter build",
+    "serve-static": "rimraf ./dist ./.cache && cross-env NODE_ENV=production marko-starter serve-static",
+    "lint": "eslint src/",
+    "test": "npm run lint",
+    "prettier": "prettier src/**/*.{js,css,less} *.js --write",
+    "pre-publish": "rimraf ./node_modules"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "eslintIgnore": [
+    "*.marko.js"
+  ],
+  "private": true
+}

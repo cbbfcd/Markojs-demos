@@ -1,0 +1,27 @@
+/*
+* @Author: huangteng
+* @Date:   2017-10-16 17:36:24
+* @Last Modified by:   huangteng
+* @Last Modified time: 2017-10-19 10:02:36
+* @Description: 首页
+*/
+
+$ const initData = require('./init-data/init.js');
+<site-layout>
+	<@stylesheet>
+		<link href="./vendor/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="./vendor/css/style.css" rel="stylesheet">
+	</@stylesheet>
+	<@title>
+		<title>${initData.projectName}</title>
+	</@title>
+	<@content>
+		<oidc-website />
+	</@content>
+	<@scripts>
+		<script type="text/javascript" src="./vendor/js/jquery.js"></script>
+	    <script type="text/javascript" src="./vendor/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="./vendor/js/particles.min.js"></script>
+	    <script type="text/javascript" src="./vendor/js/myown.js"></script>
+	</@scripts>
+</site-layout>

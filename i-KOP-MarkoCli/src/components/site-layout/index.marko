@@ -1,0 +1,42 @@
+/*
+* @Author: huangteng
+* @Date:   2017-10-16 17:36:24
+* @Last Modified by:   huangteng
+* @Last Modified time: 2017-10-19 10:02:36
+* @Description: 布局组件
+*/
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<include(input.title)/>
+    <include(input.stylesheet)/>
+    <!-- 兼容低版本的IE浏览器 -->
+    <!--[if lt IE 9]>
+        <script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+        <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<script>
+        var scalingBodyFont = false;
+        function scaleBodyFont() {
+            var height = Math.max(window.outerHeight, window.screen.height);
+            document.documentElement.style.fontSize = Math.pow(Math.min(window.innerWidth, height), 0.25)*19+'%';
+            scalingBodyFont = false;
+        }
+        window.addEventListener('resize', function() {
+            requestAnimationFrame(scaleBodyFont);
+        });
+        scaleBodyFont();
+    </script>
+</head>
+<body>
+	<include(input.content)/>
+    <div id="particles-js"></div>
+    <include(input.scripts)/>
+</body>
+</html>

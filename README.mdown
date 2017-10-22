@@ -1,0 +1,31 @@
+# marko demos
+
+<hr/>
+
+<a href="https://github.com/cbbfcd">@波比小金刚</a>
+
+>如果觉得不错请扔个star过来。
+
+> 如要转载，请注明出处。
+
+<hr/>
+
+# 目录
+
+<a href="./i-KOP-MarkoCli/README.mdown">1. marko + marko-starter + ssr</a><br/>
+<a href="./i-KOP-Marko-Webpack/README.mdown">2. marko + webpack</a><br/>
+<a href="./marko-webpack-ssr/README.mdown">3. marko + webpack + express + ssr</a><br/>
+
+# 描述
+
+e-bay的<a href="http://markojs.com/">Marko</a>是一个快速、轻量级的基于HTML的模板引擎，并且支持 client/server side 模块，它支持异步渲染,模板继承，自定义标签以及多种可扩展的指令
+
+
+性能有多强悍呢? 如图：
+
+<img src="./marko.png">
+
+周末花时间分别用:
+1. marko-starter + marko + lasso 搭建了一个SSR的简单的页面。
+2. marko + webpack 搭建了一个浏览器渲染的页面。
+3. marko + webpack + express 搭建了一个SSR的简单的页面。

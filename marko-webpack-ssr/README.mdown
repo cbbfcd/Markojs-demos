@@ -1,0 +1,26 @@
+# marko + webpack + express  
+
+<hr/>
+
+<a href="https://github.com/cbbfcd">@波比小金刚</a>
+
+>如果觉得不错请扔个star过来。
+
+> 如要转载，请注明出处。
+
+<hr/>
+
+
+marko + webpack + express 实现的一个服务端渲染的页面。
+
+支持：
+1. websocket监听，实时的只去重新渲染改变了的页面
+
+## 运行
+
+```
+git clone ...
+cd ...
+cnpm install ...
+npm start-hot
+```

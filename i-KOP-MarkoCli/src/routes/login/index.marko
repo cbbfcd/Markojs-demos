@@ -1,0 +1,19 @@
+$ const initData = require('../../init-data/init.js');
+<site-layout>
+	<@stylesheet>
+		<link href="../../vendor/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="../../vendor/css/style.css" rel="stylesheet">
+	</@stylesheet>
+	<@title>
+		<title>${initData.projectName}</title>
+	</@title>
+	<@content>
+		<site-login />
+	</@content>
+	<@scripts>
+		<script type="text/javascript" src="../../vendor/js/jquery.js"></script>
+	    <script type="text/javascript" src="../../vendor/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="../../vendor/js/particles.min.js"></script>
+	    <script type="text/javascript" src="../../vendor/js/myown.js"></script>
+	</@scripts>
+</site-layout>

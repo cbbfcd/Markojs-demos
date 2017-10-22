@@ -1,0 +1,27 @@
+/*
+* @Author: 28906
+* @Date:   2017-10-20 15:22:40
+* @Last Modified by:   28906
+* @Last Modified time: 2017-10-20 17:30:46
+*/
+
+.start-page{
+	text-align: center;
+}
+
+.mybtn{
+	position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media (min-width: 992px)
+.my-offset{
+	margin-left: 33.33333333%;
+}
+
+.my-offset{
+    position: relative;
+    min-height: 1px;
+    padding-right: 50px;
+    padding-left: 50px;
+}

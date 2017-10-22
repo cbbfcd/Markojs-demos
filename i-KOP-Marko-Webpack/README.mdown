@@ -1,0 +1,29 @@
+# marko + webpack
+
+<hr/>
+
+<a href="https://github.com/cbbfcd">@波比小金刚</a>
+
+>如果觉得不错请扔个star过来。
+
+> 如要转载，请注明出处。
+
+<hr/>
+
+
+webpack+marko 实现的一个客户端渲染的页面。一个简单的demo。
+
+支持：
+1. 热重载
+2. HappyPack
+3. 打包性能分析
+
+
+## 运行
+
+```
+git clone ...
+cd ...
+cnpm install ...
+npm start...
+```

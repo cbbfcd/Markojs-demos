@@ -1,0 +1,16 @@
+/*
+* @Author: 28906
+* @Date:   2017-10-19 14:35:16
+* @Last Modified by:   28906
+* @Last Modified time: 2017-10-20 16:08:58
+* @Description: 全局的css
+*/
+
+#particles-js {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	bottom: 0;
+	background: #ffffff;
+}
