@@ -2,7 +2,7 @@
 * @Author: 28906
 * @Date:   2017-10-21 20:09:39
 * @Last Modified by:   28906
-* @Last Modified time: 2017-10-21 21:00:36
+* @Last Modified time: 2017-10-23 09:35:54
 * @Description: 要渲染的组件
 */
 
@@ -17,6 +17,7 @@ class renderComp{
 
 	render404(){
 		document.querySelector('#root').innerHTML = error.renderToString({});
+
 	}
 
 	renderLogin(){
