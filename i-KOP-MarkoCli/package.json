@@ -8,18 +8,18 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4.2.0",
-    "eslint-config-prettier": "^2.3.0",
-    "eslint-plugin-prettier": "^2.1.2",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
     "lodash": "^4.17.4",
     "mockjs": "^1.0.1-beta3",
     "prettier": "^1.5.2",
-    "rimraf": "^2.6.2",
-    "whatwg-fetch": "^2.0.3"
+    "rimraf": "^3.0.0",
+    "whatwg-fetch": "^3.0.0"
   },
   "dependencies": {
     "marko": "^4.2.4",
-    "marko-starter": "^1.0.0"
+    "marko-starter": "^2.0.4"
   },
   "scripts": {
     "start": "marko-starter server",
