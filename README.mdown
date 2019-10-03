@@ -1,5 +1,7 @@
 # marko demos
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cbbfcd/Markojs-demos.svg)](https://greenkeeper.io/)
+
 <hr/>
 
 <a href="https://github.com/cbbfcd">@波比小金刚</a>
