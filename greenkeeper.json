@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "i-KOP-Marko-Webpack/package.json",
+        "i-KOP-MarkoCli/package.json",
+        "marko-webpack-ssr/package.json"
+      ]
+    }
+  }
+}
